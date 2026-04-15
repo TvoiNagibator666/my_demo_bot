@@ -3,8 +3,7 @@ from aiogram import Bot, Dispatcher
 
 from config import config
 from db import init_db
-
-from handlers import start, filter, product, payment, admin
+import start, filter, product, payment, admin
 import logging
 logging.basicConfig(level=logging.INFO)
 async def main():
